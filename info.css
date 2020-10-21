@@ -48,9 +48,9 @@
     text-decoration : none;
     }
     .nav_bar li a:hover {
-    color: black;
+    color: white;
     border-top : 3px solid #CD0A0A;
-    background-color : white;
+    background-color : black;
     }
 
 
@@ -70,6 +70,7 @@
         font-weight: bold;
         padding: 0 0 10px;
         margin: 0 0 10px;
+        color: rgb(202, 30, 30);
     }
 
     #container {
@@ -83,10 +84,10 @@
         margin: 25px;
         width: 44%;
     }
-    #reserve{
-        border: solid 10px white;  
+    /* #reserve{
+        border: solid 10px black;  
     }
- 
+  */
 
 
 
