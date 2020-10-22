@@ -42,9 +42,9 @@ padding : 20px 20px;
 text-decoration : none;
 }
 .nav_bar li a:hover {
-color :black;
-border-top : 3px solid rgb(202, 30, 30) ;
-background-color : white;
+color :#fff;
+border-top : #cd0a0a;
+background-color : #00001a;
 }
 
 
