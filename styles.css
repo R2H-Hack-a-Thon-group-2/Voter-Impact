@@ -1,0 +1,117 @@
+* {
+    margin : 0;
+    padding : 0;
+    }
+
+body {
+        background-color : white;
+        font-family:Arial, Helvetica, sans-serif ;
+    }
+
+header {
+        background-color :#fff;
+        font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        height : 60px;
+        -webkit-font-smoothing:antialiased;
+        text-rendering:optimizeLegibility;
+        }
+#bar{
+     display: flex;
+    flex-wrap: wrap;
+        }
+#bar ul {
+    list-style-type :none;
+    margin : auto;
+    overflow : hidden;
+        }
+
+.nav_bar li {
+            float : left;
+            }
+.nav_bar li a {
+            display : block;
+            text-transform : uppercase;
+            color :black;
+            text-align : center;
+            padding : 20px 20px;
+            text-decoration : none;
+            }
+/* .nav_bar li a:hover { 
+            color : #fff;
+            border-top : 3px solid #CD0A0A;
+            background-color : #00001A;
+            }*/
+.hero-image{
+  background-image:url("https://www.ncvoter.org/wp-content/uploads/2018/03/ncvoterbanner.jpg");  
+  height: 10em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  border: black; 
+}
+.hero-text{
+    text-align: center;
+   padding: 0%;
+}
+h1{
+text-align: center;
+text-shadow: darkgrey 3px 3px;
+font-size: 2em;
+text-decoration: underline;
+
+}
+h4{
+    font-size: 2em;
+    margin-left: 25em;
+    color:rgb(202, 30, 30) ;
+}
+
+h2{
+    font-size: 2em;
+    color:rgb(202, 30, 30) ;
+}    
+
+h3{
+    font-size: 2em;
+    margin-left: 3em;
+    color:rgb(202, 30, 30) ;
+}
+
+p{
+    margin-left: 6em ;
+    font-size: 1.5em;
+}
+.gallery {
+    display:inline-block;
+    padding: 2.2em;
+    border: black 2px;
+  }
+
+  .gallery img {
+    width: 25em ;
+    height: 25em;
+    border: black 5em;
+  }
+
+.footer{
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    height: 175px;
+    padding: 20px;
+    color: white;
+}
+.logo{
+    justify-content: center;
+}
+.fa-instagram, .fa-facebook, .fa-youtube, .fa-twitter{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fa-instagram:hover, .fa-facebook:hover, .fa-youtube:hover, .fa-twitter:hover{
+    color: rgb(202, 30, 30);
+    padding-left: 20px;
+    padding-right: 20px;
+}
