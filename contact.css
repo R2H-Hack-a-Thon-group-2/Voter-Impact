@@ -29,8 +29,8 @@ header{
 .nav_bar img{
     margin : -18px auto;
     list-style-type : none;
-    width: auto;
-    height: 60px;
+    width: 75;
+    height: 50px;
 }
 .nav_bar li {
     float : left;
